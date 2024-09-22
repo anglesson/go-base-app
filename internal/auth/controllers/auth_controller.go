@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/anglesson/go-base-app/database"
-	"github.com/anglesson/go-base-app/models"
-	"github.com/anglesson/go-base-app/utils"
+	"github.com/anglesson/go-base-app/internal/auth/models"
+	"github.com/anglesson/go-base-app/internal/database"
+	"github.com/anglesson/go-base-app/internal/utils"
 
 	"golang.org/x/crypto/bcrypt"
 )

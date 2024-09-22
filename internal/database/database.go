@@ -5,8 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/anglesson/go-base-app/models"
-
+	"github.com/anglesson/go-base-app/internal/auth/models"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 )
